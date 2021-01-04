@@ -7,10 +7,11 @@ const config = {
 	width: 800,
 	height: 600,
 	parent: 'game-container',
+	pixelArt: true,
 	physics: {
 		default: 'arcade',
 		arcade: {
-			gravity: { y: 200 }
+			gravity: { y: 0 }
 		}
 	},
 	scene: [HelloWorldScene]
